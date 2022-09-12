@@ -1,0 +1,35 @@
+body {
+  background: #000;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterTextWrap {
+  color: #fff;
+  width: 250px;
+  height: 20px;
+}
+
+.filterShow {
+  width: 200px;
+  color: #fff;
+  border: 5px solid #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.filterShow .before, .filterShow .after {
+  width: 100px;
+  height: 20px;
+  background: #000;
+}
+
+.filterShow .after, .sp-container {
+  filter: invert(1) hue-rotate(180deg) brightness(1.3);
+}
+
+.sp-button-container {
+  display: none;
+}
